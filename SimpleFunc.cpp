@@ -11,8 +11,8 @@ int func(int a, int b);
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	int x = 5;
-	int y = 3;
+	int x = 11;
+	int y = 5;
 
 	int sum = func(x, y);
 
@@ -23,5 +23,5 @@ int _tmain(int argc, _TCHAR* argv[])
 }
 
 int func(int a, int b) {
-	return a + b;
+	return a * b;
 }
